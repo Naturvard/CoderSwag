@@ -7,8 +7,8 @@ object dataService {
     val categories= listOf(
         category("HATS","hatimage"),
         category("HOODIE","hoodieimage"),
-        category("SHIRT","shirtImage"),
-        category("DIGITAL GOODS IMAGE","digitalgoodsimage")
+        category("SHIRT","shirtimage"),
+        category("DIGITAL GOODS IMAGE","digitalgoodsimage"),
 
     )
     val hats= mutableListOf(

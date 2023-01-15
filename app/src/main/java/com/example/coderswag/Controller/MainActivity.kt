@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import com.example.coderswag.Adapters.CategoryAdapter
 import com.example.coderswag.R
 import com.example.coderswag.dataService
 import com.example.coderswag.Model.category
@@ -19,10 +20,9 @@ class MainActivity : AppCompatActivity() {
         binding=ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        var adapter= ArrayAdapter(this,
-        android.R.layout.simple_list_item_1,
+        var adapter= CategoryAdapter(this,
            dataService.categories)
-        binding.CategoryListView.adapter=adapter
+        binding.categoryListView.adapter=adapter
 
 
         //CategoryListView.adapter=adapter
