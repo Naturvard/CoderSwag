@@ -12,9 +12,7 @@ import android.widget.TextView
 import com.example.coderswag.Model.category
 import com.example.coderswag.R
 
-class CategoryAdapter(context:Context,categories:List<category>):BaseAdapter() {
-    val context=context
-    val categories=categories
+class CategoryAdapter(val context: Context, val categories: List<category>):BaseAdapter() {
 
 
     //@SuppressLint("ViewHolder")

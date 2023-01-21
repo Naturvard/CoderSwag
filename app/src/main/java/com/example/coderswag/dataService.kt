@@ -10,6 +10,7 @@ object dataService {
         category("SHIRT","shirtimage"),
         category("DIGITAL GOODS IMAGE","digitalgoodsimage"),
 
+
     )
     val hats= mutableListOf(
         product("Bennie","Rs.170","hat1"),
